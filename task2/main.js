@@ -25,10 +25,10 @@ function formattedPhone(phone) {
     return `+38 (${code}) ${part1}-${part2}-${part3}`;
 }
 
-console.log(formattedPhone('+80664567890')); // +38 (066) 456-78-90[cite: 1]
-console.log(formattedPhone('80971234567'));  // +38 (097) 123-45-67[cite: 1]
-console.log(formattedPhone('0671234567'));   // +38 (067) 123-45-67[cite: 1]
-console.log(formattedPhone('12345'));        // Формат функції неправильний[cite: 1]
+console.log(formattedPhone('+80664567890'));
+console.log(formattedPhone('80971234567'));
+console.log(formattedPhone('0671234567'));
+console.log(formattedPhone('12345'));
 
 function runTask2() {
     const inputPhone = prompt("Введіть номер телефону (наприклад: +80664567890, 80971234567 або 0671234567):");
