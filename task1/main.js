@@ -4,9 +4,7 @@ const secondRow = 'You can say that again';
 
 function countLetter(str, letter) {
     let count = 0;
-    // Перебираємо весь рядок за допомогою .length
     for (let i = 0; i < str.length; i++) {
-        // Отримуємо символ за допомогою .charAt()
         if (str.charAt(i).toLowerCase() === letter.toLowerCase()) {
             count++;
         }
